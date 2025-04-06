@@ -1,0 +1,6 @@
+.gitignore eol=lf
+.python-version eol=lf
+uv.lock eol=lf
+*.py eol=lf
+*.toml eol=lf
+*.md eol=lf

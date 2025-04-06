@@ -1,0 +1,8 @@
+[project]
+name = "pyscrout"
+version = "0.1.0"
+description = "Output text to speech and braille"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
