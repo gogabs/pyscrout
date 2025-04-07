@@ -1,8 +1,14 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
 [project]
 name = "pyscrout"
-version = "0.1.0"
+version = "0.1.1"
 description = "Output text to speech and braille"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = []
 
+[tool.hatch.build]
+include = ["pyscrout/**/*.py", "pyscrout/lib/*"]
