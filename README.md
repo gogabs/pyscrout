@@ -10,12 +10,11 @@ However, Pyscrout isn't a perfect replacement yet. Currently, it only supports N
 
 ## Installation
 
-1. Install the library using **pip** :
+Install the library using **pip** :
 
-   ```shell
-   pip install pyscrout@git+https://github.com/gogabs/pyscrout
-   ``
-   ```
+```shell
+pip install pyscrout@git+https://github.com/gogabs/pyscrout
+```
 
 Pyscrout comes with the controller DLL already included downloaded from https://download.nvaccess.org/releases/. It's a 64-bit DLL, so if you need the 32-bit one, you may need to swap the files.
 
