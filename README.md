@@ -26,10 +26,10 @@ First, import the library:
 from pyscrout import nvda
 ```
 
-You can use `nvda.is_running` to check if NVDA is running or not:
+You can use `nvda.is_available` to check if NVDA is running or not:
 
 ```python
-if nvda.is_running():  # Returns a bool
+if nvda.is_available():  # Returns a bool
     print("NVDA is up and running!)
 else:
     print("Nope, not running)
